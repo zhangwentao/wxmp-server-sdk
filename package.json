@@ -1,0 +1,17 @@
+{
+  "name": "wxmp-server-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "wechat",
+    "wechat-server",
+    "wechat-server-utils"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
