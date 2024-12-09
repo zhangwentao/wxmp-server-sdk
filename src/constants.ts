@@ -4,6 +4,6 @@ const URL = {
   subscribeSend: 'https://api.weixin.qq.com/cgi-bin/message/subscribe/send'
 }
 
-module.exports = {
-  URL 
+export {
+  URL
 }

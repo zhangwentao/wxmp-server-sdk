@@ -2,8 +2,11 @@
   "name": "wxmp-server-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "wechat",
     "wechat-server",
@@ -12,6 +15,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^22.10.1"
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
   }
 }

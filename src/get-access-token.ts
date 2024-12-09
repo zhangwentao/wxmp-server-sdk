@@ -21,7 +21,6 @@ const getAccessToken = async (params: {
           try {
             const parsedData = JSON.parse(rawData);
             const { access_token, expires_in } = parsedData
-            console.log(access_token, expires_in)
             resolve({
               access_token,
               expires_in
@@ -35,6 +34,6 @@ const getAccessToken = async (params: {
   })
 }
 
-module.exports = {
+export {
   getAccessToken
 }

@@ -5,8 +5,9 @@
     "target": "ES6",
     "rootDir": "./src",
     "outDir": "./lib",
-    "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "./lib/types"
   },
   "include": ["src"]
 }
