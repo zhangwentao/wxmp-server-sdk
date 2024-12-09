@@ -1,5 +1,5 @@
 {
-  "name": "wxmp-server-utils",
+  "name": "wxmp-server-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
